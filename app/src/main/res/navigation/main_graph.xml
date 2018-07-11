@@ -14,5 +14,13 @@
         android:id="@+id/agenda"
         android:name="com.example.navigationplayground.main.AgendaFragment"
         android:label="Agenda"
-        tools:layout="@layout/fragment_agenda" />
+        tools:layout="@layout/fragment_agenda" >
+        <action
+            android:id="@+id/openDetail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.navigationplayground.main.DetailFragment"
+        android:label="Detail" />
 </navigation>
