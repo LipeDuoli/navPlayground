@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.navigationplayground.R
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.fragment_agenda.*
 
 
@@ -25,6 +26,8 @@ class AgendaFragment : Fragment() {
         buttonDetail.setOnClickListener {
             view.findNavController().navigate(AgendaFragmentDirections.openDetail())
         }
+
+        activity?.findViewById<BottomNavigationView>(R.id.bottomNavigationView)?.visibility = View.VISIBLE
 
     }
 
