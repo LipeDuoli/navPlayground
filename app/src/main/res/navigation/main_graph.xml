@@ -17,10 +17,14 @@
         tools:layout="@layout/fragment_agenda" >
         <action
             android:id="@+id/openDetail"
-            app:destination="@id/detailFragment" />
+            app:destination="@id/detailFragment"
+            app:popUpTo="@+id/call"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.navigationplayground.main.DetailFragment"
-        android:label="Detail" />
+        android:label="Detail"
+        tools:layout="@layout/fragment_detail"/>
+
 </navigation>
