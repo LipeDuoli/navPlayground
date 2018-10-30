@@ -3,7 +3,8 @@ package com.example.navigationplayground.main
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
-import androidx.navigation.ui.NavigationUI
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupWithNavController
 import com.example.navigationplayground.R
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -15,11 +16,12 @@ class MainActivity : AppCompatActivity() {
 
         val navController = findNavController(R.id.mainNavigationFragment)
 
-        NavigationUI.setupWithNavController(bottomNavigationView, navController)
-        NavigationUI.setupWithNavController(toolbar, navController)
+        val appBarConfiguration = AppBarConfiguration(setOf(R.id.call, R.id.agenda))
+        toolbar.setupWithNavController(navController, appBarConfiguration)
+
+
+        bottomNavigationView.setupWithNavController(navController)
 
     }
 
-    override fun onSupportNavigateUp() =
-            findNavController(R.id.mainNavigationFragment).navigateUp()
 }
