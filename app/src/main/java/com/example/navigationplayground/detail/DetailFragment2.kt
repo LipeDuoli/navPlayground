@@ -1,4 +1,4 @@
-package com.example.navigationplayground.main
+package com.example.navigationplayground.detail
 
 
 import android.os.Bundle
@@ -9,12 +9,12 @@ import androidx.fragment.app.Fragment
 import com.example.navigationplayground.R
 
 
-class DetailFragment : Fragment() {
+class DetailFragment2 : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_detail, container, false)
+        return inflater.inflate(R.layout.fragment_detail_2, container, false)
     }
 
 

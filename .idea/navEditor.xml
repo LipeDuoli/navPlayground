@@ -3,22 +3,23 @@
   <component name="navEditor-manualLayoutAlgorithm2">
     <option name="myPositions">
       <map>
-        <entry key="login_graph.xml">
+        <entry key="detail_graph.xml">
           <value>
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="blankFragment">
+                  <entry key="detailFragment">
                     <value>
                       <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-141" />
+                            <option name="y" value="-120" />
+                          </Point>
+                        </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_blankFragment_to_loginFragment">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                            <entry key="action_blankFragment_to_mainActivity">
+                            <entry key="action_detailFragment_to_detailFragment2">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -28,24 +29,16 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="loginFragment">
+                  <entry key="detailFragment2">
                     <value>
                       <LayoutPositions>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="openMain">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="72" />
+                            <option name="y" value="-118" />
+                          </Point>
                         </option>
                       </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="mainActivity">
-                    <value>
-                      <LayoutPositions />
                     </value>
                   </entry>
                 </map>
@@ -63,13 +56,13 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="130" />
-                            <option name="y" value="-103" />
+                            <option name="x" value="177" />
+                            <option name="y" value="12" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="openDetail">
+                            <entry key="action_agenda_to_detailActivity">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -84,20 +77,20 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-97" />
-                            <option name="y" value="-113" />
+                            <option name="x" value="12" />
+                            <option name="y" value="12" />
                           </Point>
                         </option>
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="detailFragment">
+                  <entry key="detailActivity">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="422" />
-                            <option name="y" value="-108" />
+                            <option name="x" value="444" />
+                            <option name="y" value="9" />
                           </Point>
                         </option>
                       </LayoutPositions>

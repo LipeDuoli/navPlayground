@@ -16,15 +16,13 @@
         android:label="Agenda"
         tools:layout="@layout/fragment_agenda" >
         <action
-            android:id="@+id/openDetail"
-            app:destination="@id/detailFragment"
-            app:popUpTo="@+id/call"
-            app:popUpToInclusive="true" />
+            android:id="@+id/action_agenda_to_detailActivity"
+            app:destination="@id/detailActivity" />
     </fragment>
-    <fragment
-        android:id="@+id/detailFragment"
-        android:name="com.example.navigationplayground.main.DetailFragment"
-        android:label="Detail"
-        tools:layout="@layout/fragment_detail"/>
+    <activity
+        android:id="@+id/detailActivity"
+        android:name="com.example.navigationplayground.detail.DetailActivity"
+        android:label="activity_detail"
+        tools:layout="@layout/activity_detail" />
 
 </navigation>
