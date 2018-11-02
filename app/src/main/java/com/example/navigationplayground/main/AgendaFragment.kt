@@ -25,7 +25,6 @@ class AgendaFragment : Fragment() {
 
         buttonDetail.setOnClickListener {
             startActivity(Intent(context, DetailActivity::class.java))
-//            view.findNavController().navigate(AgendaFragmentDirections.actionAgendaToDetailActivity())
         }
 
     }
